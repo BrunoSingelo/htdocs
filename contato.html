@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <title>Fale conosco</title>
+
+    <form>
+      <!-- inicio do formulario -->
+      <p>
+        <label for="nome">Nome: </label>
+        <input id="nome" placeholder="Digite seu nome..." type="text" />
+      </p>
+      <p>
+        <label for="email">E-mail: </label>
+        <input id="email" placeholder="seu@email.com" type="email" />
+      </p>
+      <p>
+        <label for="telefone">Telefone: </label>
+        <input
+          id="telefone"
+          placeholder="12 99999-9999"
+          type="tel"
+          pattern="[0-9]{2} [0-9]{5}-[0-9]{4}"
+        />
+      </p>
+      <p>
+        <label for="departamento">Departamento: </label>
+        <select id="departamento">
+          <option value="">Selecione</option>
+          <option  value="">Administrativo</option>
+          <option  value="">Financeiro</option>
+          <option  value="">Suporte</option>
+        </select>
+      </p>
+      <p>
+        <label for="mensagem">Mensagem: </label><br />
+        <textarea
+          id="mensagem"
+          placeholder="Afogue suas magoas aqui..."
+          rows="6"
+          cols="30"
+        ></textarea>
+      </p>
+      <p>
+        <label>Conhecimentos:</label>
+
+        <input id="html" type="checkbox" />
+        <label for="html">HTML</label>
+
+        <input id="css" type="checkbox" />
+        <label for="css">CSS</label>
+
+        <input id="javascript" type="checkbox" />
+        <label for="javascript">JavaScript</label>
+      </p>
+
+      <p>
+        <label for="mensagem">Status de relacionamento: </label><br />
+        <input id="solteiro" type="radio" name="estadocivil" />
+        <label for="solteiro">Solteiro</label>
+
+        <input name="estadocivil" id="casado" type="radio" />
+        <label for="casado">Casado</label>
+      </p>
+      <p>
+        <button type="submit">Enviar</button>
+      </p>
+      <p>
+        <button type="submit">Enviar</button>
+      </p>
+    </form>
+  </body>
+</html>
