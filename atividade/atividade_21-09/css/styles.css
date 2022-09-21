@@ -1,0 +1,35 @@
+body{
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold
+}
+.table-activity{
+    width: 600px;
+    background-color:#C7E7F3  ;
+}
+.table-title-principal{
+    background-color: #0D5188;
+    color: #fff;
+
+}
+.table-subTitle{
+    background-color: #66C5E3 ;
+}
+th, td{
+    padding: 2px;
+}
+.city-name{
+    color: #0D5188;
+    
+}
+.position-number{
+    text-align: center;
+    background-color: #c1c1c1;
+    font-weight: normal;
+    margin: 10%;
+}
+.pop-number{
+    text-align: center;
+    font-weight: normal;
+}

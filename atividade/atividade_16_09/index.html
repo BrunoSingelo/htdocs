@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/style.css" rel="stylesheet" type="text/css"> 
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <h1 >Cadastro</h1>
+    <div >
+      <form>
+        <p >
+          <label for="nome">Nome Completo </label><br />
+          <input id="nome" placeholder="Digite seu nome completo" type="text" />
+        </p>
+        <div>
+        <p>
+          <label >Sexo</label><br />
+        <div>
+          <input id="feminino" type="radio" name="sexo" />
+          <label for="feminino">Feminino</label><br />
+          <input id="masculino" type="radio" name="sexo" />
+          <label for="masculino">Masculino</label><br />
+          <input id="prefiroNaoResponder" type="radio" name="sexo" />
+          <label for="prefiroNaoResponder">Prefiro Não Responder</label><br />
+        </p>
+    </div>
+        <p >
+          <label for="nascimento" name="sexo">Data de Nascimento </label><br />
+          <input id="nascimento" name="nascimento" type="date" />
+        </p>
+        <p>
+          <label for="email">E-mail </label><br />
+          <input id="email" placeholder="seu@email.com" type="email" />
+        </p>
+        <p style="margin: 10px">
+          <label for="senha">Senha </label><br />
+          <input id="senha" placeholder="Digite sua senha" type="password" />
+        </p>
+        <p>
+          <label for="repetirSenha">Repetir senha </label><br />
+          <input
+            id="repetirSenha"
+            placeholder="Digite sua novamente senha"
+            type="password"
+          />
+        </p>
+        <p>
+          <label for="departamento">Departamento</label><br />
+          <select id="departamento">
+            <option value="">Selecione</option>
+            <option value="administrativo" selected>Administrativo</option>
+            <option value="financeiro">Financeiro</option>
+            <option value="suporte">Suporte</option>
+          </select>
+        </p>
+        <p>
+          <label for="mensagem">Mensagem: </label><br />
+          <textarea
+            id="mensagem"
+            placeholder="Informe o mativo que está se cadastrando"
+            rows="6"
+            cols="30"
+          ></textarea>
+        </p>
+        <p>
+          <input id="termo" type="checkbox" />
+          <label for="termo">Confirmo que li e aceito os termos de uso.</label>
+        </p>
+        <p>
+          <input  type="submit" value="Enviar" />
+        </p>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../1926541-fundo-metalico-prateado-foto.jpg');
+}
+h1{
+    font-size: 20px;
+}
+
+.tabela1, .tabela1 td, .tabela1 th{
+    border: 1px solid;
+}
+.fundo-vermelho{
+    background-color: #ff0000;
+    color: #fff;
+}
+
+table tr th.fundo-vermelho{
+    padding: 10px;
+}
+/* 
+exemplo! */
+
+.exemplo2{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    letter-spacing: 3px;
+    word-spacing: 15px;
+    text-align: center;
+}
+.e3t1{
+    background-color: #a52a2a;
+    display: block;
+}
+.e3t2{
+    display: block;
+    margin-top: 15px;
+    background-color: #0000ff;
+}
+
+.listText{
+    list-style: none;
+    list-style-position: initial;
+    /* list-style-image: url(../1926541-fundo-metalico-prateado-foto.jpg) ; */
+    
+}
