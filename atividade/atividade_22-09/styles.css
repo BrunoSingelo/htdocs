@@ -1,0 +1,114 @@
+body{
+    margin: 0 ;
+    background-color: #d6d4d4;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
+.div-container{
+    background-color: #f0e9e9;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 8px;
+}
+.div-title{
+    background-color: black;
+    color: #fff;
+    height: 100px;
+    padding: 20px;
+    vertical-align: middle;
+    width: 100%;
+    float: left;
+    border-radius: 6px ;
+}
+.div-clear{
+    clear: both;
+}
+*{
+    box-sizing: border-box;
+}
+.div-body{
+    width: 100%;
+    float: left;
+
+}
+.div-lateral{
+    padding-right: 20px;
+    width: 30%;
+    float: left;
+}
+.menu-lateral{
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-lateral li{
+    background-color: brown;
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+.menu-lateral li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-lateral li:hover{
+    background-color: black;
+    transition: 0.3s;
+}
+
+.menu-lateral li.ativo{
+    background-color: black;
+}
+.div-content{
+    width: 70%;
+    float: left;
+}
+.div-folder{
+    width: 100%;
+    float: left;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 6px ;
+}
+
+.w100{
+    width: 100%;
+}
+.w70{
+    width: 70%;
+}
+.w50{
+    width: 50%;
+}
+.w30{
+    width: 30%;
+}
+.left{
+    float: left;
+}
+#formcontato label{
+    display: block;
+}
+#formcontato input, #formcontato select, #formcontato textarea{
+    width: 100%;
+    padding: 7px;
+    background-color: rgb(212, 212, 212);
+    border: none;
+    border-radius: 5px;
+}
+#formcontato input:focus, #formcontato select:focus, 
+#formcontato textarea:focus{
+    background-color: #b96e6e;
+    transition: 0.3s;
+}
+
+#formcontato div{
+    padding: 3px;
+}

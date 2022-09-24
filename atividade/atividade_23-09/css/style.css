@@ -1,0 +1,29 @@
+body{
+    margin: 0 ;
+    background-color: #31b5c77c;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
+.div-container{
+    background-color: #2d89be9d;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 8px;
+}
+h1{
+    margin: 0 auto;
+}
+.div-title{
+    background-color: #3084c9;
+    color: #fff;
+    padding: 15px;
+    vertical-align: middle;
+    width: 100%;
+    float: left;
+    border-radius: 6px ;
+}
+.div-clear{
+    clear: both;
+}
