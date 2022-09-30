@@ -1,0 +1,105 @@
+body {
+  margin: 0 auto;
+  background-color: #c1c1c1;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+* {
+  box-sizing: border-box;
+}
+img {
+  align-items: center;
+}
+.div-title {
+  padding: 40px 0;
+  margin: 0;
+  background-color: blue;
+  color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+}
+.div-menu {
+  display: flex;
+  justify-content: flex-start;
+  background: #1d1c1c;
+}
+.div-menu a {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+}
+.div-menu a:hover {
+  background-color: rgb(163, 145, 145);
+  color: #000;
+  transition: 0.5s;
+}
+.div-corpo {
+  display: flex;
+}
+.div-esquerdo {
+  flex: 30%;
+  padding: 15px;
+  background-color: #7e7676;
+  text-align: center;
+  justify-content: center;
+}
+.div-img {
+  width: 50%;
+}
+.div-img img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+.div-esquerdo .div-img {
+  display: block;
+  margin: auto;
+}
+.div-direito {
+  flex: 70%;
+  padding: 15px;
+  text-align: start;
+  background-color: #fff;
+}
+
+.div-direito h2 {
+  font-size: 28px;
+}
+.div-direito h3 {
+  font-size: 12px;
+}
+
+.div-direito h4 {
+  font-size: 12px;
+}
+.div-direito .div-img {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.div-direito .div-img img {
+  width: 100%;
+}
+.div-folder {
+  display: flex;
+  justify-content: center;
+  background-color: #242121;
+  color: #fff;
+  padding: 20px;
+}
+@media screen and (max-width: 800px) {
+  .div-corpo {
+    flex-direction: column-reverse;
+  }
+  .div-direito {
+    flex: 100%;
+  }
+  .div-esquerdo {
+    flex: 100%;
+  }
+  .div-menu {
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #1d1c1c;
+  }
+}

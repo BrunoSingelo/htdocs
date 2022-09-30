@@ -35,6 +35,10 @@ h1{
     /* align-items: baseline; */
 
 }
+.adesivo{
+    position: sticky;
+    top: 0;
+}
 .menu{
     font-size: 20px;
     list-style-type: none;

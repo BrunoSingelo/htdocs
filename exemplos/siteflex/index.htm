@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NinjaFlex</title>
+    <style>
+      body {
+        margin: 0 auto;
+        background-color: #c1c1c1;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      .container80 {
+        width: 80%;
+        background-color: #fff;
+        display: block;
+        margin: auto;
+        padding: 15px;
+        margin-top: 10px;
+      }
+      .cabecalho {
+        display: flex;
+        background-color: #413d25;
+        color: #fff;
+      }
+      .div-logo {
+        flex: 20%;
+        background-color: #3a8f8f;
+      }
+      .div-logo img {
+        width: 100%;
+      }
+      .div-pesquisa {
+        padding: 10px;
+        flex: 60%;
+        flex-direction: row;
+        background-color: cornflowerblue;
+        align-items: center;
+      }
+      .div-pesquisa form input {
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+        font-size: 20px;
+        text-align: center;
+      }
+      .div-social {
+        align-self: center;
+        flex: 20%;
+      }
+      .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;
+      }
+      .div-social .icons img {
+        width: 100%;
+        align-self: center;
+        max-width: 30px;
+        padding: 5px;
+      }
+      .menu {
+        display: flex;
+        justify-content: center;
+        background: rgb(161, 161, 161);
+        background: radial-gradient(
+          circle,
+          rgba(161, 161, 161, 1) 0%,
+          rgba(0, 0, 0, 0.45475638051044087) 35%
+        );
+      }
+      .menu a {
+        text-decoration: none;
+        color: #fff;
+        padding: 15px;
+      }
+      .menu a:hover {
+        background-color: #fff;
+        color: #000;
+        transition: 0.5s;
+      }
+      .adesivo {
+        position: sticky;
+      }
+      .menu a.ativo {
+        background-color: #fff;
+        color: #000;
+        font-weight: bold;
+      }
+      .corpo {
+        display: flex;
+        margin: 5px 0 5px 0;
+      }
+      .lateral-e {
+        flex: 20%;
+        margin: 5px;
+      }
+      .conteudo {
+        flex: 60%;
+        margin: 5px;
+      }
+      .lateral-d {
+        flex: 20%;
+        margin: 5px;
+      }
+      .rodape {
+        display: flex;
+        justify-content: center;
+        background-color: #000;
+        color: #fff;
+        padding: 20px;
+      }
+      @media screen and (max-width: 800px) {
+        .container80 {
+          width: 100%;
+        }
+        .corpo {
+          flex-direction: column;
+        }
+      }
+      @media screen and (max-width: 650px) {
+        .menu {
+          flex-direction: column;
+        }
+        .conteudo {
+          order: 1;
+        }
+        .lateral-e {
+          order: 2;
+        }
+        .lateral-e {
+          order: 3;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container80">
+      <div class="cabecalho">
+        <div class="div-logo">
+          <img src="img/logo1.png" alt="Logo do site Bruno" />
+        </div>
+        <div class="div-pesquisa">
+          <form action="">
+            <label for="pesquisar"></label>
+            <input
+              type="search"
+              name="pesquisar"
+              placeholder="Pesquisar"
+              id="pesquisar"
+            />
+          </form>
+        </div>
+        <div class="div-social">
+          <div class="icons">
+            <a href="#"><img src="img/twitter.svg" alt="Icone do twitter" /></a>
+            <a href="#"
+              ><img src="img/instagram.svg" alt="Icone do instagram"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="menu adesivo">
+        <a href="#" class="ativo">Início</a>
+        <a href="#">Loja</a>
+        <a href="#">sobre</a>
+        <a href="#">Contato</a>
+      </div>
+      <div class="corpo">
+        <div class="lateral-e">
+          <h2>Lorem ipsum</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            facere explicabo quas labore amet deserunt dolorem beatae itaque
+            nostrum quaerat, odio voluptatem sit ducimus reprehenderit sapiente
+            velit eaque, eligendi ad?
+          </p>
+        </div>
+        <div class="conteudo">
+          <h2>Lorem ipsum</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            facere explicabo quas labore amet deserunt dolorem beatae itaque
+            nostrum quaerat, odio voluptatem sit ducimus reprehenderit sapiente
+            velit eaque, eligendi ad?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            facere explicabo quas labore amet deserunt dolorem beatae itaque
+            nostrum quaerat, odio voluptatem sit ducimus reprehenderit sapiente
+            velit eaque, eligendi ad?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            facere explicabo quas labore amet deserunt dolorem beatae itaque
+            nostrum quaerat, odio voluptatem sit ducimus reprehenderit sapiente
+            velit eaque, eligendi ad?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            facere explicabo quas labore amet deserunt dolorem beatae itaque
+            nostrum quaerat, odio voluptatem sit ducimus reprehenderit sapiente
+            velit eaque, eligendi ad?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            facere explicabo quas labore amet deserunt dolorem beatae itaque
+            nostrum quaerat, odio voluptatem sit ducimus reprehenderit sapiente
+            velit eaque, eligendi ad?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            facere explicabo quas labore amet deserunt dolorem beatae itaque
+            nostrum quaerat, odio voluptatem sit ducimus reprehenderit sapiente
+            velit eaque, eligendi ad?
+          </p>
+        </div>
+        <div class="lateral-d">
+          <h2>Lorem ipsum</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            facere explicabo quas labore amet deserunt dolorem beatae itaque
+            nostrum quaerat, odio voluptatem sit ducimus reprehenderit sapiente
+            velit eaque, eligendi ad?
+          </p>
+        </div>
+      </div>
+      <div class="rodape">
+        <p>&copy; 2022 -NinjaFlex</p>
+      </div>
+    </div>
+  </body>
+</html>
