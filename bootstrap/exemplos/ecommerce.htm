@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Meu site Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <style>
+      .linha-logo {
+        max-height: 150px;
+      }
+      .linha-logo img {
+        max-height: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row bg-primary">
+      <div class="col-12 text-end text-light pt-2">
+        <p>rua Suiça, 1255 - Pindamonhangaba</p>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-6 text-center linha-logo">
+        <img
+          src="./img/logo2.webp"
+          alt="Logo do B de Bruno"
+          class="mx-auto d-block img-fluid"
+        />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarNavDropdown"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Cursos
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Técnico de Informática</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Técnico de Administração</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Técnico de Recursos Humanos</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Contato</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Minha Conta
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Meu perfil</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Meus cursos</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Minhas configurações</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    .
+    <div class="row">
+      <div class="col-12">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="true"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./img/30_homecashbackestoque_destaquedesk-1574a48a85b8.webp"
+                class="d-block w-100"
+                alt="slide 1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/HS_Copa_Destaque_desk-c4c0025b64b0.webp"
+                class="d-block w-100"
+                alt="slide 2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/kvcrianas22-destaquedesk-d234f4aeeed1.webp"
+                class="d-block w-100"
+                alt="slide 3"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <p class="display-4">Conheça nossos cursos:</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6 col-12">
+        <div class="card">
+          <img src="./img/adm.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Tecnico em Administração</h5>
+            <p class="card-text">
+              O Curso daqules que são indecisos, se você e um deles esse curso e
+              o seu futuro garantido!
+            </p>
+            <div class="d-grid">
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-12">
+        <div class="card">
+          <img
+            src="./img/enfermagem.jpg"
+            class="card-img-top"
+            alt="Foto enfermagem"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Tecnico em Enfermagem</h5>
+            <p class="card-text">
+              O curso e para aqueles que curtem furar as pessoas, gosto de
+              sangue e cuidar de pessoas, usar Jaleco branco, então e aqui mesmo
+            </p>
+            <div class="d-grid">
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-12">
+        <div class="card">
+          <img src="./img/TI.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Tecnico em Informatica</h5>
+            <p class="card-text">
+              O Curso mais top que existe na fase da terra, voce vai se
+              arrempender se não faze-lo.
+            </p>
+            <div class="d-grid">
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-12">
+        <div class="card">
+          <img src="./img/rh.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Tecnico em Recursos Humanos</h5>
+            <p class="card-text">
+              O Curso nao e tao legal quanto informatica, mas e interassante de
+              fazer se curte a area.
+            </p>
+            <div class="d-grid">
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row bg-primary py-2 mt-5">
+      <div class="col-12 text-center text-light">
+        <p>&copy, 2022 - Senac Pindamonhangaba</p>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
