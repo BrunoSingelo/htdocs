@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Meu site Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <style>
+      body {
+        overflow-x: hidden;
+      }
+      .linha-logo {
+        max-height: 150px;
+      }
+      .linha-logo img {
+        max-height: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row justify-content-start">
+        <div class="col-6 text-start linha-logo">
+          <img
+            src="./img/Rd80AxP.png"
+            alt="Logo do B de Bruno"
+            class="mx-auto img-fluid"
+          />
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse justify-content-center"
+                id="navbarNavDropdown"
+              >
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Perfumes
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">JAVA</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Si++</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Pythonsuri</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Corpo e Banho
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">React Native</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Angular</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Vue</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Linha Ambiente
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Django</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">sqllite</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">sqlServer</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Promoções
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">HTML</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">CSS</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">JavaScript</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      .
+      <div class="row">
+        <div class="col-12">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="true"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./img/undefined - Imgur.png"
+                  class="d-block w-100"
+                  alt="slide 1"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./img/undefined - Imgur.png"
+                  class="d-block w-100"
+                  alt="slide 2"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./img/undefined - Imgur.png"
+                  class="d-block w-100"
+                  alt="slide 3"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row bg-secondary bg-opacity-25 p-4">
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="row">
+            <div class="col-4 text-center">
+              <p class="display-1"><i class="bi bi-credit-card-2-front"></i></p>
+            </div>
+            <div class="col-8">
+              <p class="h3">Frete Grátis</p>
+              <p>nas compras a partir de R$400,00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="row justify-content-center">
+            <div class="col-4 text-center">
+              <p class="display-1"><i class="bi bi-credit-card-2-front"></i></p>
+            </div>
+            <div class="col-8">
+              <p class="h3">Frete Grátis</p>
+              <p>nas compras a partir de R$400,00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="row">
+            <div class="col-4 text-center">
+              <p class="display-1"><i class="bi bi-credit-card-2-front"></i></p>
+            </div>
+            <div class="col-8">
+              <p class="h3">Frete Grátis</p>
+              <p>nas compras a partir de R$400,00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="row">
+            <div class="col-4 text-center">
+              <p class="display-1"><i class="bi bi-credit-card-2-front"></i></p>
+            </div>
+            <div class="col-8">
+              <p class="h3">Frete Grátis</p>
+              <p>nas compras a partir de R$400,00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="display-4">Últimos Lançamentos</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="card">
+            <img src="./img/java.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">Perfume Java - Importando com Classe</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="card">
+            <img src="./img/react.jpg" class="card-img-top" alt="react" />
+            <div class="card-body">
+              <p class="card-text">Perfume React - Reagindo ao Nativo</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="card">
+            <img src="./img/java.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">Perfume Java - Importações e Classes</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="card">
+            <img src="./img/react.jpg" class="card-img-top" alt="react" />
+            <div class="card-body">
+              <p class="card-text">Perfume React - Reagindo ao Nativo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row bg-primary py-2 mt-5">
+        <div class="col-12 text-center text-light">
+          <p>&copy, 2022 - Senac Pindamonhangaba</p>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
